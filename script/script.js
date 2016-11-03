@@ -21,12 +21,10 @@ $( document ).ready(function() {
         $('.eighties img').hide();
         $('.ninties img').hide();
         $('.thousand img').hide();
-
     });
 	$( '.forties button' ).click(function() {
     	$('.forties img').show();
         $('.thirties img').hide();
-        $('.forties img').hide();
         $('.twenties img').hide();
         $('.fifties img').hide();
         $('.sixties img').hide();
@@ -47,12 +45,11 @@ $( document ).ready(function() {
         $('.thirties img').hide();
     });
     $( '.sixties button' ).click( function(){
-    	$( '.sixties img' ).show();
+    	$('.sixties img' ).show();
         $('.fifties img').hide();
         $('.thirties img').hide();
         $('.forties img').hide();
         $('.twenties img').hide();
-        $('.sixties img').hide();
         $('.seventies img').hide();
         $('.eighties img').hide();
         $('.ninties img').hide();
@@ -66,7 +63,6 @@ $( document ).ready(function() {
         $('.forties img').hide();
         $('.twenties img').hide();
         $('.fifties img').hide();
-        $('.seventies img').hide();
         $('.eighties img').hide();
         $('.ninties img').hide();
         $('.thousand img').hide();
@@ -80,7 +76,6 @@ $( document ).ready(function() {
         $('.twenties img').hide();
         $('.fifties img').hide();
         $('.sixties img').hide();
-        $('.eighties img').hide();
         $('.ninties img').hide();
         $('.thousand img').hide();
 
@@ -94,7 +89,6 @@ $( document ).ready(function() {
         $('.fifties img').hide();
         $('.sixties img').hide();
         $('.seventies img').hide();
-        $('.ninties img').hide();
         $('.thousand img').hide();
 
     });
@@ -109,6 +103,5 @@ $( document ).ready(function() {
         $('.seventies img').hide();
         $('.eighties img').hide();
         $('.ninties img').hide();
-        $('.thousand img').hide();
     });
 });
